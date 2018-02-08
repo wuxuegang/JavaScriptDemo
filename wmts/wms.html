@@ -1,0 +1,56 @@
+<html>   
+        <head>   
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>   
+        <meta name="keywords" content="天地图"/>   
+        <title>天地图－地图API－范例－叠加wms图层</title>   
+        <script type="text/javascript" language="javascript" src="http://api.tianditu.com/js/maps.js"></script>   
+        <script language="javascript">   
+            var map;   
+            var zoom = 7;   
+            var wmsLayer;   
+            function onLoad()   
+            {   
+                //初始化地图对象   
+                map=new TMap("mapDiv");   
+                //设置显示地图的中心点和级别   
+                map.centerAndZoom(new TLngLat(115.587,27.8625),zoom);   
+                //允许鼠标滚轮缩放地图   
+                map.enableHandleMouseScroll();   
+                
+                //设置地图显示为卫星   
+                //map.setMapType(TMAP_SATELLITE_MAP);   
+                //设置地图显示级别2-7  
+                map.setZoomLevels([3,7]);   
+                   
+                //添加wms图层   
+                addWMS();   
+            }   
+               
+            function addWMS() {   
+                if(wmsLayer) {   
+                    map.removeLayer(wmsLayer);   
+                }   
+                var config = {   
+                        REQUEST:"GetMap",   //操作名称   
+                        VERSION:"1.1.0",    //请求服务的版本   
+                        SERVICE:"WMS",      //服务类型标识符   
+                        LAYERS:"1820pref",  //用","分隔的多个图层列表   
+                        TRANSPARENT:true,   //输出图像背景是否透明   
+                        //STYLES:"default", //每个请求图层的用","分隔的描述样式   
+                        FORMAT:"image/png", //输出图像的类型   
+                        //SRS:"EPSG:4326",  //地图投影类型   
+                        SRS:map.getCode(),  //地图投影类型   
+                        WIDTH:256,          //输出地图图片的像素宽   
+                        HEIGHT:256          //输出地图图片的像素高   
+                };  
+                //创建WMS图层对象   
+                wmsLayer = new TTileLayerWMS("1820pref", "http://gisserver.tianditu.com/TDTService/region/wms",config);   
+                //将WMS图层添加到地图上   
+                map.addLayer(wmsLayer);  
+            }   
+        </script>   
+        </head>   
+        <body onLoad="onLoad()">   
+            <div id="mapDiv" style="position:absolute;width:900px; height:600px"></div>   
+        </body>   
+        </html>  

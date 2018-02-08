@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>ArcGISDynamicMapServiceLayer</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/arcgis_js_api/V3.9/3.9/js/esri/css/esri.css" />
+    <script type="text/javascript" src="http://localhost:8080/arcgis_js_api/V3.9/3.9/"></script>
+
+    <style>
+        html, body, #mapDiv{
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+    <script>
+
+
+        esri.config.defaults.io.proxyUrl = "proxy.jsp";
+        var baseUrl = 'http://localhost:6080/arcgis/tokens/generateToken';
+        var userName = 'arcgis';
+        var passWord = 'sgsmp';
+        // 调用地图服务的系统地址
+        var referer = 'http://localhost:8080/JavaScriptDemo';   //
+        var expiration = 200;
+        var token = ''
+
+        var args = {
+            url: baseUrl,
+            content: {
+                username : userName,
+                password : passWord,
+                client : "referer",
+                referer : referer,
+                ip : '',
+                expiration : expiration,
+                f: "json"
+            },
+            handleAs: "json",
+            sync: false
+        };
+        var options = {
+            usePost: true,
+            useProxy: true
+        };
+
+        var def = esri.request(args, options);
+        def.addCallback(dojo.hitch(this, function(response){
+            token = response.token;
+            initMap(token);
+
+        }));
+
+        def.addErrback(dojo.hitch(this, function (error) {
+            console.log(error);
+        }));
+
+
+
+
+        function initMap(token) {
+            var myMap = new esri.Map("mapDiv");
+            var mapUrl = 'http://localhost:6080/arcgis/rest/services/bubei/HBBaseMap/MapServer?Token=' + token;
+            var myTiledMapServiceLayer = new esri.layers.ArcGISTiledMapServiceLayer(mapUrl);
+            myMap.addLayer(myTiledMapServiceLayer);
+        }
+
+
+
+    </script>
+</head>
+<body>
+<div id="mapDiv"></div>
+</body>
+</html>

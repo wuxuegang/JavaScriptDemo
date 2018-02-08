@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--The viewport meta tag is used to improve the presentation and behavior of the samples 
+      on iOS devices-->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>FeatureLayer On Demand</title>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/arcgis_js_api/V3.9/3.9/js/esri/css/esri.css" />
+    <style>
+        html, body, #mapDiv {
+            padding:0;
+            margin:0;
+            height:100%;
+        }
+
+        #add {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+    <script src="http://localhost:8080/arcgis_js_api/V3.9/3.9/"></script>
+    <script>
+        var map;
+        require([
+            "esri/map", "esri/InfoTemplate", "esri/layers/FeatureLayer", "esri/layers/ArcGISDynamicMapServiceLayer",
+            "dojo/parser", "dojo/on","dojo/dom", "dojo/domReady!"
+        ], function(
+                Map, InfoTemplate, FeatureLayer, ArcGISDynamicMapServiceLayer,
+                parser, on, dom
+                ) {
+            parser.parse();
+            map = new Map("mapDiv");
+            var layer = new ArcGISDynamicMapServiceLayer("http://localhost:6080/arcgis/rest/services/MyFeatureService/MapServer");
+            map.addLayer(layer);
+
+            var infoTemplate = new InfoTemplate("${NAME_CHN}", "要素ID:  ${OBJECTID:NumberFormat}");
+            var featureLayer = new FeatureLayer("http://localhost:6080/arcgis/rest/services/MyFeatureService/FeatureServer/1", {
+                mode: FeatureLayer.MODE_ONDEMAND,
+                outFields: ["*"],
+                infoTemplate: infoTemplate
+            });
+            map.addLayer(featureLayer);
+            map.on("load", initOperationalLayer);
+
+            on(dom.byId("add"), "click", function () {
+                console.log("添加");
+
+            });
+
+            //map.infoWindow.resize(155, 75);
+            function initOperationalLayer() {
+            }
+        });
+    </script>
+</head>
+<body class="claro">
+<div id="mapDiv">
+</div>
+    <button id="add">添加</button>
+</body>
+</html>
+ 

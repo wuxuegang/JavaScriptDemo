@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title> NC WMTS Service</title>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/3.20/dijit/themes/claro/claro.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/3.20/esri/css/esri.css">
+  <style>
+    html,
+    body,
+    #map {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script src="https://js.arcgis.com/3.20/"></script>
+  <script>
+
+    var map;
+    require([
+      "dojo/_base/declare",
+      "esri/map",
+      "esri/layers/WMTSLayer",
+      "esri/layers/TiledMapServiceLayer",
+      "esri/geometry/Extent",
+      "esri/SpatialReference",
+      "esri/layers/TileInfo",
+      "dojo/domReady!"
+    ], function (declare, Map, WMTSLayer, TiledMapServiceLayer, Extent, SpatialReference, TileInfo) {
+
+      // Create ogc.WMTSLayer custom layer
+      var CustomWMTSLayer = declare([TiledMapServiceLayer], {
+        declaredClass: "ogc.WMTSLayer",
+        constructor: function () {
+          this.copyright = '';
+          this.version = "1.0.0";
+          this.identifier = "jianIMG";
+          this.imageFormat = "image/png24";
+          this.tileMatrixSet = "jianIMG";
+          this.spatialReference = new SpatialReference({ wkid: 4490 });
+          this.initialExtent = new Extent(114.85725960840053, 26.964380905145262,115.08209945115367, 27.204868864920254, this.spatialReference);
+          this.fullExtent = new Extent(114.85725960840053, 26.964380905145262,115.08209945115367, 27.204868864920254, this.spatialReference);
+          //
+          this.tileInfo = new TileInfo({
+            "dpi": "96",
+            "format": "image/png",
+            "compressionQuality": 0,
+            "spatialReference": {
+              "wkid": "4490"
+            },
+            "rows": 256,
+            "cols": 256,
+            "origin": {
+              "x": -180,
+              "y": 90
+            },
+
+            // Scales in DPI 96
+            "lods": [{
+              "level": "10",
+              "scale": 577143.7364428712,
+              "resolution": 0.0013732910156250004
+            }, {
+              "level": "11",
+              "scale": 288571.8682214356,
+              "resolution": 0.00068664550781250022
+            }, {
+              "level": "12",
+              "scale": 144285.9341107178,
+              "resolution": 0.00034332275390625011
+            }, {
+              "level": "13",
+              "scale": 72142.9670553589,
+              "resolution": 0.00017166137695312505
+            }, {
+              "level": "14",
+              "scale": 36071.48352767945,
+              "resolution": 0.000085830688476562527
+            }, {
+              "level": "15",
+              "scale": 18035.741763839724,
+              "resolution": 0.000042915344238281264
+            }, {
+              "level": "16",
+              "scale": 9017.870881919862,
+              "resolution": 0.000021457672119140632
+            }, {
+
+              "level": "17",
+              "scale": 4508.935440959931,
+              "resolution": 0.000010728836059570316
+            },{
+              "level": "18",
+              "scale": 2254.4677204799655,
+              "resolution": 5.3644180297851563e-006
+            },{
+              "level": "19",
+              "scale": 1127.2338602399827,
+              "resolution": 2.6822090148925781e-006
+            },{
+              "level": "20",
+              "scale": 563.61693011999137,
+              "resolution": 1.3411045074462891e-006
+            }]
+          });
+          this.loaded = true;
+          this.onLoad(this);
+        },
+
+        getTileUrl: function (level, row, col) {
+       
+          var urlTemplate = "http://www.jamap.cn/WMTS/kvp/services/jianIMG/MapServer/WMTSServer" +
+            "?SERVICE=WMTS" + 
+            "&REQUEST=GetTile" +
+            "&TILEMATRIX=" +
+            level + "&TILECOL=" + col + "&TILEROW=" + row;
+          return urlTemplate;
+        }
+      });
+
+      map = new Map("map", {
+        // basemap: "streets",
+        spatialReference: new SpatialReference({ wkid: 4490 }),
+        center: [114.96724408399157, 27.084925292442428],
+        zoom: 8
+      });
+
+      // add WMTS layer http://v2.suite.opengeo.org/geoserver/gwc/service/wmts
+      var customWMTSLayer = new CustomWMTSLayer();
+      map.addLayer(customWMTSLayer);
+    });
+  </script>
+</head>
+
+<body class="claro">
+  <div id="map"></div>
+</body>
+
+</html>

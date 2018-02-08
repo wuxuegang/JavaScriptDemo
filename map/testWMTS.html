@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title> NC WMTS Service</title>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/3.20/dijit/themes/claro/claro.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/3.20/esri/css/esri.css">
+  <style>
+    html,
+    body,
+    #map {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script src="https://js.arcgis.com/3.20/"></script>
+  <script>
+
+    var map;
+    require([
+      "dojo/_base/declare",
+      "esri/map",
+      "esri/layers/WMTSLayer",
+      "esri/layers/TiledMapServiceLayer",
+      "esri/geometry/Extent",
+      "esri/SpatialReference",
+      "esri/layers/TileInfo",
+      "dojo/domReady!"
+    ], function (declare, Map, WMTSLayer, TiledMapServiceLayer, Extent, SpatialReference, TileInfo) {
+
+      // Create ogc.WMTSLayer custom layer
+      var CustomWMTSLayer = declare([TiledMapServiceLayer], {
+        declaredClass: "ogc.WMTSLayer",
+        constructor: function () {
+          this.copyright = '';
+          this.version = "1.0.0";
+          this.identifier = "GZ_NCBZDM_2015";
+          this.imageFormat = "image/png";
+          this.tileMatrixSet = "Matrix_0";
+          this.spatialReference = new SpatialReference({ wkid: 4490 });
+          this.initialExtent = new Extent(115.3125, 28.125, 116.71875, 29.1796875, this.spatialReference);
+          this.fullExtent = new Extent(115.3125, 28.125, 116.71875, 29.1796875, this.spatialReference);
+          //
+          this.tileInfo = new TileInfo({
+            "dpi": "96",
+            "format": "image/png",
+            "compressionQuality": 0,
+            "spatialReference": {
+              "wkid": "4490"
+            },
+            "rows": 256,
+            "cols": 256,
+            "origin": {
+              "x": -180,
+              "y": 90
+            },
+
+            // Scales in DPI 96
+            "lods": [{
+              "level": "10",
+              "scale": 577791.7098721985,
+              "resolution": 0.0013732910156250004
+            }, {
+              "level": "11",
+              "scale": 288895.85493609926,
+              "resolution": 0.00068664550781250022
+            }, {
+              "level": "12",
+              "scale": 144447.92746804963,
+              "resolution": 0.00034332275390625011
+            }, {
+              "level": "13",
+              "scale": 72223.96373402482,
+              "resolution": 0.00017166137695312505
+            }, {
+              "level": "14",
+              "scale": 36111.98186701241,
+              "resolution": 0.000085830688476562527
+            }, {
+              "level": "15",
+              "scale": 18055.990933506204,
+              "resolution": 0.000042915344238281264
+            }, {
+
+              "level": "16",
+              "scale": 9027.995466753102,
+              "resolution": 0.000021457672119140632
+            }, {
+
+              "level": "17",
+              "scale": 4513.997733376551,
+              "resolution": 0.000010728836059570316
+            }]
+          });
+          this.loaded = true;
+          this.onLoad(this);
+        },
+
+        getTileUrl: function (level, row, col) {
+       
+          var urlTemplate = "http://www.tdtjx.cn:7001/NCBZDM_2015/wmts" +
+            "?SERVICE=WMTS&VERSION=" + this.version +
+            "&REQUEST=GetTile" +
+            "&LAYER=" + this.identifier +
+            "&STYLE=GZ_NCBZDM_2015" +
+            "&FORMAT=" + this.imageFormat +
+            "&TILEMATRIXSET=" + this.tileMatrixSet +
+            "&TILEMATRIX=" +
+            level + "&TILEROW=" + row + "&TILECOL=" + col;
+          return urlTemplate;
+        }
+      });
+
+      map = new Map("map", {
+        // basemap: "streets",
+        spatialReference: new SpatialReference({ wkid: 4490 }),
+        center: [116.01875, 28.625],
+        zoom: 1
+      });
+
+      // add WMTS layer http://v2.suite.opengeo.org/geoserver/gwc/service/wmts
+      var customWMTSLayer = new CustomWMTSLayer();
+      map.addLayer(customWMTSLayer);
+    });
+  </script>
+</head>
+
+<body class="claro">
+  <div id="map"></div>
+</body>
+
+</html>

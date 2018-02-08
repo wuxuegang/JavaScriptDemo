@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3d1a868-e406-4d07-a400-103c09259294" name="Default" comment="" />
+    <ignored path="JavaScriptDemo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JavaScriptDemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GPSTest.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/map/GPSTest.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="2045" selection-end="2045" vertical-scroll-proportion="1.3100437" vertical-offset="420" max-vertical-offset="1360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/query/findTask.html" />
+        <option value="$PROJECT_DIR$/query/t.html" />
+        <option value="$PROJECT_DIR$/Graphics/1.html" />
+        <option value="$PROJECT_DIR$/Graphics/clusterLayer.html" />
+        <option value="$PROJECT_DIR$/renderer/1.html" />
+        <option value="$PROJECT_DIR$/map/Wmts.html" />
+        <option value="$PROJECT_DIR$/renderer/Class Breaks Renderer.html" />
+        <option value="$PROJECT_DIR$/renderer/Unique value renderer.html" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/getToken.html" />
+        <option value="$PROJECT_DIR$/map/ArcGISTiledMapServiceLayer.html" />
+        <option value="$PROJECT_DIR$/map/ArcGISDynamicMapServiceLayer.html" />
+        <option value="$PROJECT_DIR$/map/FeatureLayer.html" />
+        <option value="$PROJECT_DIR$/css/layout.css" />
+        <option value="$PROJECT_DIR$/map/ArcGISOnlineMap.html" />
+        <option value="$PROJECT_DIR$/query/queryTask.html" />
+        <option value="$PROJECT_DIR$/proxy.jsp" />
+        <option value="$PROJECT_DIR$/Geometry/bufferGraphic.html" />
+        <option value="$PROJECT_DIR$/gp/gp_resultmapservice.html" />
+        <option value="$PROJECT_DIR$/edit/f.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/graphics/toolbar_draw.html" />
+        <option value="$PROJECT_DIR$/map/GPSTest.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="76" />
+    <option name="y" value="429" />
+    <option name="width" value="1008" />
+    <option name="height" value="700" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScriptDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="D:/Program Files/ArcGIS/Portal/webapps/arcgis#home/onemap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program Files (x86)\WebStorm 7.0.3\webStormHome\JavaScriptDemo\images" />
+      <recent name="E:\Program Files (x86)\WebStorm 7.0.3\webStormHome\JavaScriptDemo\map" />
+      <recent name="E:\Program Files (x86)\WebStorm 7.0.3\webStormHome\JavaScriptDemo\Graphics" />
+      <recent name="E:\Program Files (x86)\WebStorm 7.0.3\webStormHome\JavaScriptDemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63342/JavaScriptDemo/index.html">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3d1a868-e406-4d07-a400-103c09259294" name="Default" comment="" />
+      <created>1404722839692</created>
+      <updated>1404722839692</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="76" y="429" width="1008" height="700" extended-state="1" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5646329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21665661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/map/GPSTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="2045" selection-end="2045" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/toolbar_draw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="6" selection-start="4663" selection-end="4672" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISOnlineMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="31" selection-start="1212" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/Add graphics to a map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="55" selection-start="4714" selection-end="4721" vertical-scroll-proportion="0.0" vertical-offset="1693" max-vertical-offset="2980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="32" selection-start="4879" selection-end="4891" vertical-scroll-proportion="0.0" vertical-offset="2700" max-vertical-offset="3320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="29" selection-start="6467" selection-end="6467" vertical-scroll-proportion="0.0" vertical-offset="3469" max-vertical-offset="5480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/toolbar_draw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="4681" selection-end="4681" vertical-scroll-proportion="0.0" vertical-offset="2560" max-vertical-offset="2680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/Add graphics to a map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="55" selection-start="4714" selection-end="4721" vertical-scroll-proportion="0.0" vertical-offset="1693" max-vertical-offset="2980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="32" selection-start="4879" selection-end="4891" vertical-scroll-proportion="0.0" vertical-offset="2220" max-vertical-offset="3320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getToken.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISDynamicMapServiceLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISTiledMapServiceLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="611" selection-end="898" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getToken.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="22" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1701" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISDynamicMapServiceLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISTiledMapServiceLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="611" selection-end="898" vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISDynamicMapServiceLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="49" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/queryTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="77" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="3381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gp/gp_resultmapservice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="0" selection-start="9098" selection-end="9098" vertical-scroll-proportion="0.0" vertical-offset="3900" max-vertical-offset="4704" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gp/gp_resultmapservice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="166" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="4704" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="28" selection-start="6662" selection-end="6662" vertical-scroll-proportion="0.0" vertical-offset="3425" max-vertical-offset="5250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/bufferGraphic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="19" selection-start="6026" selection-end="6026" vertical-scroll-proportion="0.0" vertical-offset="2772" max-vertical-offset="4011" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renderer/Class Breaks Renderer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="234" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/extras/ClusterLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="202" selection-end="202" vertical-scroll-proportion="-0.30215827" vertical-offset="441" max-vertical-offset="7791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/IdentifyTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="222" selection-end="437" vertical-scroll-proportion="-0.0" vertical-offset="147" max-vertical-offset="2667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renderer/Unique value renderer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="579" selection-end="579" vertical-scroll-proportion="0.36567163" vertical-offset="0" max-vertical-offset="1596" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renderer/Class Breaks Renderer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="234" selection-end="446" vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getToken.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1595" selection-end="1595" vertical-scroll-proportion="1.2895069" vertical-offset="0" max-vertical-offset="1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISTiledMapServiceLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="519" selection-end="519" vertical-scroll-proportion="0.33419022" vertical-offset="0" max-vertical-offset="778" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISDynamicMapServiceLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="28" selection-start="776" selection-end="792" vertical-scroll-proportion="0.3539823" vertical-offset="200" max-vertical-offset="1040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/Wmts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="196" column="99" selection-start="6878" selection-end="6885" vertical-scroll-proportion="-21.068966" vertical-offset="3309" max-vertical-offset="4520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="1" selection-start="1272" selection-end="1272" vertical-scroll-proportion="1.5365853" vertical-offset="40" max-vertical-offset="1420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/FeatureLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1184" selection-end="1184" vertical-scroll-proportion="-23.137932" vertical-offset="9" max-vertical-offset="1240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.3539823" vertical-offset="0" max-vertical-offset="1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/queryTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="83" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.19534282" vertical-offset="929" max-vertical-offset="3220" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query/findTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="13" selection-start="5293" selection-end="5293" vertical-scroll-proportion="0.26040268" vertical-offset="2346" max-vertical-offset="3160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/clusterLayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="96" selection-start="766" selection-end="766" vertical-scroll-proportion="-3.9051833" vertical-offset="3509" max-vertical-offset="4300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gp/gp_resultmapservice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="28" selection-start="2174" selection-end="2174" vertical-scroll-proportion="0.42030847" vertical-offset="1073" max-vertical-offset="4500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Geometry/bufferGraphic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="28" selection-start="1722" selection-end="1738" vertical-scroll-proportion="0.5372751" vertical-offset="742" max-vertical-offset="3840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit/editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="32" selection-start="4879" selection-end="4891" vertical-scroll-proportion="0.20308483" vertical-offset="2542" max-vertical-offset="3320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="5480" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/toolbar_draw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="6" selection-start="4663" selection-end="4672" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ArcGISOnlineMap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="31" selection-start="1212" selection-end="1244" vertical-scroll-proportion="0.7969152" vertical-offset="180" max-vertical-offset="1940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/Add graphics to a map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="68" selection-start="4540" selection-end="4592" vertical-scroll-proportion="0.83161956" vertical-offset="1693" max-vertical-offset="2980" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/GPSTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="2045" selection-end="2045" vertical-scroll-proportion="1.3100437" vertical-offset="420" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
