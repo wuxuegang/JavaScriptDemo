@@ -28,13 +28,13 @@
 
             map = new Map("mapDiv");
 
-            var imageParameters = new ImageParameters();
-            imageParameters.format = "PNG"; //set the image type to PNG24, note default is PNG8.
+            //var imageParameters = new ImageParameters();
+            //imageParameters.format = "JPEG"; //set the image type to PNG24, note default is PNG8.
 
             //Takes a URL to a non cached map service.
-            var dynamicMapServiceLayer = new ArcGISDynamicMapServiceLayer("https://localhost:6443/arcgis/rest/services/beijing001/MapServer", {
-                "opacity" : 1,
-                "imageParameters" : imageParameters
+            var dynamicMapServiceLayer = new ArcGISDynamicMapServiceLayer("https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Petroleum/KGS_OilGasFields_Kansas/MapServer", {
+                "id": "oilAndGasLayer",
+                "opacity": 0.75
             });
 
             map.addLayer(dynamicMapServiceLayer);
